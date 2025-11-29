@@ -1,0 +1,21 @@
+{
+  "name": "Portfolio Sepnanto",
+  "short_name": "SepnantoPortfolio",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#2575fc",
+  "description": "Portfolio IT Support Sepnanto Muresta Saputra",
+  "icons": [
+    {
+      "src": "assets/images/foto_saya.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "assets/images/foto_saya.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

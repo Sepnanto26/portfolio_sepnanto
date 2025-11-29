@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sepnanto Muresta Saputra | IT Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="assets/manifest.json">
+  <meta name="theme-color" content="#2575fc">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Sepnanto Muresta</div>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#certificates">Sertifikat</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <button class="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- About / Profil -->
+  <section id="about" class="fade-in-section">
+    <div class="profile">
+      <img src="assets/images/foto_saya.jpeg" alt="Sepnanto Muresta" class="profile-img">
+      <div class="bio">
+        <h1>Sepnanto Muresta Saputra</h1>
+        <p>IT Support Specialist with experience in troubleshooting hardware & software, network maintenance, and optimizing IT infrastructure. Proficient in Windows Server, Microsoft Office, and remote desktop applications. Collaborative, solution-oriented, and always improving skills to support operations efficiently.</p>
+        <p>Email: <a href="mailto:murestasepnanto@gmail.com">murestasepnanto@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Sepnanto26" target="_blank">Sepnanto26</a> | LinkedIn: <a href="https://www.linkedin.com/in/sepnanto-muresta-saputra-307759277/" target="_blank">LinkedIn</a></p>
+        <a href="assets/docs/cv_saya.pdf" class="btn-download" target="_blank">📄 Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="fade-in-section">
+    <h2>Keahlian</h2>
+    <div class="skills-container">
+      <div class="skill">IT Support</div>
+      <div class="skill">Troubleshooting Hardware & Software</div>
+      <div class="skill">Network Maintenance</div>
+      <div class="skill">Windows Server</div>
+      <div class="skill">Microsoft Office</div>
+      <div class="skill">Remote Desktop Application</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="fade-in-section">
+    <h2>Proyek</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>IT Support & Maintenance</h3>
+        <p>Maintenance jaringan dan troubleshooting hardware & software untuk tim internal.</p>
+        <a href="https://github.com/Sepnanto26" target="_blank">Lihat di GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Windows Server Setup</h3>
+        <p>Setup dan konfigurasi Windows Server untuk lingkungan kantor.</p>
+        <a href="https://github.com/Sepnanto26" target="_blank">Lihat di GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="fade-in-section">
+    <h2>Sertifikat</h2>
+    <div class="certificates-container">
+      <div class="cert-card">
+        <h4>Belajar Prinsip Pemrograman SOLID</h4>
+        <a href="https://www.dicoding.com/certificates/QLZ96O887Z5D" target="_blank">Lihat Sertifikat</a>
+      </div>
+      <div class="cert-card">
+        <h4>Memulai Pemrograman Dengan C</h4>
+        <a href="https://www.dicoding.com/certificates/1RXYQ7NWKZVM" target="_blank">Lihat Sertifikat</a>
+      </div>
+      <div class="cert-card">
+        <h4>Belajar Dasar Manajemen Proyek</h4>
+        <a href="https://www.dicoding.com/certificates/07Z6JDK7JXQR" target="_blank">Lihat Sertifikat</a>
+      </div>
+      <div class="cert-card">
+        <h4>MTCNA</h4>
+        <a href="https://mikrotik.com/training/certificates/c465988c12f628ea01a4" target="_blank">Lihat Sertifikat</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-in-section">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:murestasepnanto@gmail.com">murestasepnanto@gmail.com</a></p>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+  <script>
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(() => console.log("Service Worker Registered"));
+    }
+  </script>
+</body>
+</html>
